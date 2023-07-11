@@ -1,0 +1,11 @@
+.order-canceled {
+  @apply flex flex-col justify-between;
+}
+
+.order-canceled__title {
+  @apply text-style-1440-h1 text-accent-1 sm:mt-2.5 sm:mb-1 md:mb-[40px] text-center;
+}
+
+.order-canceled__reason {
+  @apply text-style-1440-body text-center;
+}

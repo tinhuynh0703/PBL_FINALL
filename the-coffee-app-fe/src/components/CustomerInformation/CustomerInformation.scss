@@ -1,0 +1,47 @@
+.block-customer-information {
+  @apply flex flex-row justify-center items-center h-3 shadow-buttonSecondary bg-white rounded-full;
+  @apply w-[100%] sm:min-w-[150px] md:min-w-[200px];
+}
+.block-customer-information:hover {
+  @apply bg-grey-4 cursor-pointer;
+}
+
+.block-customer-information__img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50px;
+  @apply ml-0.75;
+}
+.block-customer-information__span {
+  @apply text-brown ml-1 h-1.25;
+}
+
+.menu-dropdown__img {
+  @apply m-0.75;
+}
+
+.menu-dropdown__content {
+  @apply flex flex-col items-start justify-around;
+  @apply absolute right-1 top-3.75 z-1 mt-1;
+  @apply shadow-card_center rounded-lg bg-white;
+  @apply w-customer_information;
+}
+
+.menu-dropdown__item {
+  @apply block w-full text-left text-black no-underline	px-1.5 py-1.25;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.menu-dropdown__item:hover {
+  @apply bg-grey-4 text-black;
+}
+
+.menu-hover:hover {
+  @apply bg-grey-4 text-black;
+}
+
+.menu-dropdown__item--accent {
+  @apply text-accent-1;
+}

@@ -1,0 +1,37 @@
+.custom-select-container {
+  @apply relative;
+}
+.custom-select-container__label {
+  @apply absolute inline-block ml-1 mt-[-8px] px-[2px] font-medium z-[1] after:content-[""] text-1;
+}
+.custom-select-container__label:after {
+  @apply absolute left-0 h-[16px] bottom-0 z-[-1] bg-white w-full;
+}
+
+.custom-select {
+  @apply bg-white h-[44px] px-1 py-[12px] border-style;
+}
+.custom-select-header {
+  @apply flex justify-between items-center text-style-vendor-body-2;
+}
+.custom-select-header__placeholder {
+  @apply text-style-vendor-body-2;
+}
+
+.custom-select__dropdown {
+  @apply flex flex-col mt-[2px] border-grey-3 absolute w-full z-10 border-style;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.custom-select-option {
+  @apply flex justify-between items-center bg-white h-[44px] px-1 py-[12px];
+}
+.custom-select-option__label {
+  @apply text-style-vendor-body-2;
+}
+.custom-select-option:hover {
+  @apply bg-accent-4;
+}
+.custom-select__icon {
+  @apply right-[15px];
+}

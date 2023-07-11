@@ -1,0 +1,19 @@
+.card-confirm-order__exit {
+  @apply w-1 h-1 absolute top-2 right-2 cursor-pointer;
+}
+
+.card-confirm-order__img {
+  @apply flex w-full justify-center items-center;
+}
+
+.card-confirm-order__title {
+  @apply mb-1 sm:text-style-375-h2 md:text-style-768-h1 xxl:text-style-1440-h1;
+}
+
+.card-confirm-order__description {
+  @apply sm:text-style-375-body  md:text-style-768-body xxl:text-style-1440-body;
+}
+
+.card-confirm-order__btn {
+  @apply w-11/12;
+}

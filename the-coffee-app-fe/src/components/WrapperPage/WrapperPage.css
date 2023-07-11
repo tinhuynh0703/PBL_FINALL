@@ -1,0 +1,7 @@
+.background {
+  @apply w-full py-1 flex flex-col;
+}
+
+.background-img {
+  @apply w-[90%] xxl:w-[1000px] md:w-[70%] bg-cover rounded-[12px] m-auto xl:h-[500px];
+}

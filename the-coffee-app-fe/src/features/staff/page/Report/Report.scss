@@ -1,0 +1,42 @@
+.react-date-picker {
+    @apply bg-white border-grey-4 p-0.5 rounded-lg min-w-[200px];
+
+    &__wrapper {
+        @apply  border-white px-0.5
+    }
+
+}
+
+.react-calendar {
+    &__month-view__days__day--weekend {
+        @apply text-accent-1
+    }
+    &__tile--active {
+        @apply bg-accent-3 text-black;
+        &:enabled:hover, &:enabled:focus {
+            @apply bg-grey-2
+        }
+    }
+    &__tile--now {
+        @apply bg-accent-4;
+        &:enabled:hover, &:enabled:focus {
+            @apply bg-grey-2
+        }
+    }
+}
+
+.tab-list {
+    @apply flex my-1
+}
+
+
+.filter-tag {
+    @apply bg-white border-grey-2 px-2 py-0.5 first:rounded-l-lg last:rounded-r-lg;
+    &--active {
+        @apply bg-accent-1 text-white  px-2 py-0.5 first:rounded-l-lg last:rounded-r-lg;
+    }
+}
+
+.add-button__text {
+    @apply text-black hover:text-black;
+}

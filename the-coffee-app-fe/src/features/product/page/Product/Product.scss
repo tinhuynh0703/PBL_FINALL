@@ -1,0 +1,20 @@
+.product {
+  @apply w-full flex flex-col xxl:flex-row xxl:border-t border-border-color;
+}
+
+.product-left {
+  @apply xxl:w-1/5 xxl:pl-1.25 xxl:pr-1 xxl:overflow-hidden overflow-x-scroll flex flex-row xxl:flex-col justify-start sm:mx-1 md:mx-1 sm:mt-1 md:mt-1;
+}
+
+.product-left::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.product-left {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.product-right {
+  @apply w-full border-l border-border-color;
+}

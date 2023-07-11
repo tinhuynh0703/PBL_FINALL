@@ -1,0 +1,7 @@
+.btn-staff {
+  @apply h-[44px] w-full py-[12.5px] px-1 rounded-[4px] cursor-pointer;
+}
+
+.btn-staff--primary {
+  @apply bg-accent-1  disabled:bg-grey-3;
+}

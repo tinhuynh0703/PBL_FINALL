@@ -1,0 +1,8 @@
+.menu-drink {
+  margin: 20px 50px;
+  gap: 30px;
+  @apply grid xxl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-2;
+  &:first-child {
+    @apply mt-1.25;
+  }
+}

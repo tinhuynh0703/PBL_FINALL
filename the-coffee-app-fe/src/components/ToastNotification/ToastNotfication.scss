@@ -1,0 +1,28 @@
+
+.toast-notification {
+  @apply flex flex-col justify-center md:h-[64px] px-1 h-[56px] w-fit rounded-lg fixed z-20;
+
+  &--success {
+    @apply bg-green shadow-vendorSuccess;
+  }
+  &--failure {
+    @apply bg-error shadow-vendorFail;
+  }
+  &--top-center {
+    @apply top-2 left-1/2 translate-x-[-50%] animate-TopToBottom transition-transform duration-700 ease-in-out;
+  }
+  &--top-right {
+    @apply md:top-5 md:right-1.25 md:translate-x-0 md:left-auto animate-ToastInRight top-1.5 left-1/2 translate-x-[-50%] transition-transform duration-700 ease-in-out;
+  }
+}
+
+.toast-container {
+  @apply h-1.5 flex flex-row items-center;
+}
+.toast-container__icon {
+  @apply w-1.5 h-1.5 mr-0.5;
+}
+.toast-container__message {
+    @apply text-white xxl:text-style-1440-body md:text-style-768-body sm:text-style-1440-body;
+}
+

@@ -1,0 +1,14 @@
+.add-button {
+  @apply w-fit h-fit bg-white hover:bg-accent-4 rounded text-accent-1;
+}
+.add-button__group {
+  @apply flex justify-center items-center md:px-[12px] md:py-[6px] lg:px-1 lg:py-0.5 xl:px-[21px] xl:py-[10px];
+}
+
+.add-button__text {
+  @apply text-accent-1 hover:text-accent-1;
+}
+
+.add-button__icon {
+  @apply md:w-[12px] md:h-[12px] lg:w-1 lg:h-1 xl:w-[20px] xl:h-[20px] mr-0.5;
+}

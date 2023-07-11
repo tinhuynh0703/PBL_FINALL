@@ -1,0 +1,36 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.block-input {
+  @apply flex flex-row relative rounded-[50px] bg-grey-4;
+  @apply sm:min-w-[200px] md:min-w-[400px];
+  @apply sm:h-3 md:h-3.5;
+  @apply sm:text-style-375-body md:text-style-768-body xxl:text-style-1440-body;
+}
+
+.block-input--white {
+  @apply bg-white;
+}
+
+.block-input:focus-within {
+  outline: 1px solid rgb(202, 195, 195);
+}
+
+.block-input input {
+  @apply w-full rounded-[50px] border-none px-[5%] truncate;
+  background-color: inherit;
+}
+
+.block-input input:focus {
+  outline: none;
+}
+.block-input img {
+  @apply cursor-pointer absolute sm:top-0.75 md:top-1;
+}

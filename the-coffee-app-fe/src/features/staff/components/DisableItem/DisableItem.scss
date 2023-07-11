@@ -1,0 +1,6 @@
+.disable-item {
+  @apply flex justify-between items-center rounded-lg shadow-order bg-white px-1 py-0.5 text-error text-center;
+}
+.disable-item__button {
+  @apply bg-accent-4 md:px-0.5 xxl:px-1 py-0.75 rounded;
+}

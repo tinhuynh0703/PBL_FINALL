@@ -1,0 +1,25 @@
+@import '../../share/assets/scss/variables.scss';
+
+
+.outlined-text-input {
+    @apply relative;
+    &:focus-within {
+        .form-control{
+            @apply outline-accent-1
+        }
+        .outlined-text-input__label {
+            @apply text-accent-1;
+        }
+    }
+    &__label{
+        @apply absolute inline-block left-1 py-0 px-[2px] font-medium text-grey-5 z-[1] after:content-[""] top-[-8px] text-1;
+    }
+    
+}
+.outlined-text-input__label:after {
+    @apply absolute left-0 h-[12px] bottom-0 z-[-1] bg-white w-full ;
+}
+.form-control {
+    @apply w-full border-solid border-grey-3 border-[1px] rounded h-[44px] indent-1 text-2 font-normal placeholder:text-grey-5;
+   
+}

@@ -1,0 +1,7 @@
+.footer {
+  @apply w-full h-3.5 bg-white flex justify-around items-center shadow-footer z-100;
+}
+
+.footer-navbar-icon {
+  @apply m-auto;
+}

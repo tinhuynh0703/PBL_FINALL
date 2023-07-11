@@ -1,0 +1,29 @@
+.home-page {
+  --growth-from: 0.5;
+  --growth-to: 1;
+  animation-name: growth;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+
+  &__btn--hidden {
+    display: none;
+  }
+}
+
+.background {
+  background: radial-gradient(100% 501.4% at 100% 100%, #efb726 0%, #fff2d7 100%);
+  .background-img {
+    @apply xl:mt-[80px];
+    width: 80%;
+    object-fit: cover;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}

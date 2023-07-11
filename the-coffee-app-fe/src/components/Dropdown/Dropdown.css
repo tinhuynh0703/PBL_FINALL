@@ -1,0 +1,13 @@
+.dropdown {
+  @apply w-fit h-fit relative;
+}
+.dropdown__icon {
+  @apply w-[44px] h-[44px] flex justify-center items-center hover:bg-grey-6 hover:cursor-pointer hover:rounded-full;
+}
+.dropdown__list {
+  @apply w-[200px] mt-0.5 bg-white rounded-lg shadow-[0_4px_16px_rgba(34,34,34,0.08)] absolute md:right-[10%] z-[1];
+}
+.dropdown__list-group {
+  @apply h-fit flex flex-auto p-1  hover:cursor-pointer;
+}
+  

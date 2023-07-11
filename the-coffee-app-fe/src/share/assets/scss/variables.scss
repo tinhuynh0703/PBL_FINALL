@@ -1,0 +1,29 @@
+$primary-color: #fff2e7;
+$secondary-color: #153913;
+$accent-color: #d50f67;
+$accent-secondary-color: #ed619f;
+$accent-third-color: #f499c1;
+$white-color: #ffffff;
+$black-color: #333333;
+$brown-color: #502f13;
+$grey-4-color: #f2f2f2;
+$grey: #999999;
+$grey-1-color: #666666;
+$black: #333333;
+$border-color: #cccccc;
+$green: #499e3b;
+$customer-error: #e51616;
+$pink: #bd0f72;
+$box-shadow: rgba(0, 0, 0, 0.1);
+$box-shadow-vendor-success: 0px 4px 28px rgba(22, 153, 19, 0.24);
+$box-shadow-vendor-fail: 0px 4px 28px rgba(219, 0, 0, 0.24);
+$background-color: #eedfd2;
+$orange: #ffe7ba;
+$warning-color: #fe5d18;
+$success-color: #499e3b;
+$error-color: #e51616;
+$cancel-order-bg-btn: #fff3f9;
+
+@mixin icon-active {
+  filter: invert(14%) sepia(55%) saturate(7500%) hue-rotate(36deg) brightness(90%) contrast(94%);
+}

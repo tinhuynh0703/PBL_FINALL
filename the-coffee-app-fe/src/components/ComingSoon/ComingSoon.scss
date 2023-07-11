@@ -1,0 +1,20 @@
+@import '../../share/assets/scss/variables.scss';
+
+.coming-soon-container {
+  text-align: center;
+  align-items: center;
+  background-image: url(../../share/assets/img/comingsoon.jpg);
+  height: 87.5vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  &__btn {
+    width: 440px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% - 440px / 2);
+    top: 90%;
+  }
+}

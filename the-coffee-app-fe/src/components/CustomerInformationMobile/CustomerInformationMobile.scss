@@ -1,0 +1,12 @@
+.information-mobile {
+  @apply flex flex-col gap-y-1.5 justify-center items-center w-full h-full px-1;
+
+  &::-webkit-scrollbar {
+    @apply hidden;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.information-mobile__item {
+  @apply w-full rounded-full border-none bg-white text-center py-1 text-style-375-button shadow-buttonSecondary;
+}

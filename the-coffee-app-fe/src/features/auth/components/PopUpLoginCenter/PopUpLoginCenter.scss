@@ -1,0 +1,28 @@
+@import '../../../../share/assets/scss/variables';
+
+.card-login-center {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $grey-4-color;
+
+  &__exit {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    cursor: pointer;
+  }
+
+  &__description {
+    padding: 20px;
+    border: 1px solid #d4a969;
+    border-radius: 10px;
+    background-color: #fef3d7;
+  }
+}
+
+.mt-100 {
+  margin-top: 50px;
+}

@@ -1,0 +1,19 @@
+@import '../../../../share/assets/scss/variables.scss';
+
+.drink-item {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  @apply flex flex-col justify-center text-center items-center cursor-pointer w-full rounded-lg duration-200;
+
+  &__name {
+    @apply mb-[10px] mt-1 sm:mt-0.5 xxl:text-style-1440-h2 md:text-style-768-h2 sm:text-style-375-h2 truncate w-full whitespace-normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  &__price {
+    @apply text-grey-1 xxl:text-style-1440-body md:text-style-768-body sm:text-style-375-body;
+  }
+}

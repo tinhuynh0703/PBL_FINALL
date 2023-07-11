@@ -1,0 +1,19 @@
+@import '../../share/assets/scss/variables.scss';
+
+.search-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 8px;
+  width: 100%;
+
+  &__img {
+    width: 88px;
+    height: 88px;
+    margin: 8px 0px 8px 8px;
+  }
+
+  &:hover {
+    background-color: $white-color;
+  }
+}

@@ -1,0 +1,57 @@
+.order-detail {
+  @apply w-[696px] h-fit bg-white rounded-[8px] border-[1px] border-solid border-grey-1 m-[auto] top-0 bottom-0 left-0 right-0 absolute z-[1] flex flex-col shadow-md;
+}
+.order-detail__title {
+  @apply border-solid py-[17.5px] px-[24px] flex flex-row justify-between;
+}
+.order-detail__title-btn-exit {
+  @apply hover:cursor-pointer;
+}
+
+.order-detail__information {
+  @apply grid grid-cols-2 border-[1px] border-solid border-grey-6 pt-[28px] pb-[32px];
+}
+.order-detail__information-drink {
+  @apply mt-[24px];
+}
+
+.order-detail__img {
+  @apply h-[150px] w-[150px];
+}
+
+.order-detail__bottom {
+  @apply flex justify-center py-[12px];
+}
+
+.order-detail__btn-cancel {
+  @apply bg-accent-4 py-[8px] px-[16px] leading-[19px] rounded-[4px] text-accent-1;
+}
+
+.order-detail--new {
+  @apply status-color-[accent-1];
+}
+
+.order-detail--processing {
+  @apply status-color-[warning];
+}
+
+.order-detail--ready {
+  @apply status-color-[success];
+}
+
+.order-detail--canceled {
+  @apply status-color-[error];
+}
+
+.dp-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+.dp-center:first-child {
+  /* border-right: 1px solid #e5e5e5; */
+}
+
+.product-detail {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  @apply p-2 flex flex-col bg-white rounded-xl;
+}

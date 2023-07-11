@@ -1,0 +1,45 @@
+
+.notification {
+  @apply fixed md:right-1.5 md:top-5 md:left-auto md:w-[456px] md:translate-x-0 w-[343px] top-1.5 left-1/2 translate-x-[-50%] bg-white shadow-card_center rounded-[8px] animate-ToastInRight transition-transform duration-700 ease-in-out;
+}
+
+.notification__btn {
+  @apply border-0 w-3 h-3 rounded-[50px] hover:cursor-pointer;
+}
+
+.notification-item {
+  @apply p-0.5 flex flex-row;
+}
+
+.notification-item__img {
+  @apply sm:w-4 md:w-[88px] 
+}
+
+.notification-item__detail {
+  @apply flex flex-row items-center mx-0.75;
+}
+
+.notification-item__title {
+  @apply sm:text-style-375-h2 md:text-style-1440-h2 uppercase;
+}
+  
+
+.notification--new {
+  @apply status-color-[accent-1];
+}
+
+.notification--processing {
+  @apply status-color-[warning];
+  
+}
+
+.notification--ready {
+  @apply status-color-[success];
+  
+}
+
+.notification--canceled {
+  @apply status-color-[error];
+}
+
+

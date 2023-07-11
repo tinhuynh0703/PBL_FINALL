@@ -1,0 +1,19 @@
+.popup-detail__exit {
+  @apply w-1 h-1 absolute top-2 right-2 cursor-pointer;
+}
+
+.popup-detail__drink-item {
+  @apply py-[5%];
+}
+
+.popup-detail__input-group {
+  @apply sm:pb-[10%];
+}
+
+.popup-detail__input {
+  @apply mb-1.25 cursor-pointer;
+}
+
+.popup-detail__button {
+  @apply w-11/12;
+}

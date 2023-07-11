@@ -1,0 +1,23 @@
+.card-change-webhook {
+    @apply overflow-y-scroll h-screen xl:w-[480px] md:w-[501px] xl:px-[20px] xl:pt-[200px] md:px-[16px] md:pt-[262px] pb-[80px] flex flex-col justify-between fixed top-0 right-0 z-[2] items-center bg-grey-4;
+}
+
+.card-change-webhook__title {
+    @apply flex flex-col justify-between items-center;
+}
+
+.card-change-webhook__description {
+    @apply text-style-1440-body xl:px-[51px] xl:mt-[32px] md:px-[65.5px] md:mt-[40px] text-center;
+}
+
+.card-change-webhook__input {
+    @apply w-full h-[56px] py-[11px] px-[24px] rounded-[50px] shadow-input bg-white border-none;
+}
+
+.card-change-webhook__button {
+    @apply w-full xl:h-[56px] md:h-[59px] shadow-buttonPrimary rounded-[50px] pt-[18px] pb-[17px] text-white;
+}
+
+.card-change-webhook__input:focus-within {
+    outline: 1px solid rgb(202, 195, 195);
+}

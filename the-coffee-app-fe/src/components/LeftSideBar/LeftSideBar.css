@@ -1,0 +1,25 @@
+.left-side-bar {
+    @apply md:w-[90px] lg:w-[135px] h-screen bg-white mr-1 sticky top-0 left-0;
+}
+
+.left-side-bar__img {
+    @apply flex items-center justify-center md:mt-0.5 lg:mt-1;
+}
+
+.left-side-bar__img-logo {
+    @apply md:w-[67px] lg:w-[100px];
+}
+
+
+.left-side-bar__group-item {
+    @apply flex flex-col text-center items-center justify-center md:py-1.5 lg:py-0 px-1.5;
+}
+
+.left-side-bar__logout {
+    @apply w-full flex lg:px-1.25 absolute bottom-1 items-center text-center justify-center;
+}
+
+.left-side-bar__logout:hover {
+    cursor: pointer;
+}
+

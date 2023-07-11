@@ -1,0 +1,29 @@
+.accent {
+  @apply text-accent-1;
+}
+
+.my-order {
+  @apply h-full overflow-y-scroll px-1;
+
+  &::-webkit-scrollbar {
+    @apply hidden;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &__list-order {
+    @apply w-full pt-0.5;
+  }
+
+  &__title {
+    @apply text-3 font-bold text-brown;
+  }
+
+  &__freeUnit {
+    @apply pt-0.5;
+  }
+
+  &__warning {
+    @apply text-4 text-center text-grey-1;
+  }
+}

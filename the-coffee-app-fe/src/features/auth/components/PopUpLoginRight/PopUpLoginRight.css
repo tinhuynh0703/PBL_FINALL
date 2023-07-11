@@ -1,0 +1,13 @@
+.brand-media {
+  @apply flex flex-row justify-center mt-2 mb-2
+}
+
+.scroll-popup-right {
+  @apply overflow-y-scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-popup-right::-webkit-scrollbar {
+  @apply hidden;
+}

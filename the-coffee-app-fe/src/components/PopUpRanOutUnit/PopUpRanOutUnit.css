@@ -1,0 +1,22 @@
+.card-ran-out-unit__exit {
+  @apply w-1 h-1 absolute top-2 right-2 cursor-pointer;
+}
+
+.card-ran-out-unit__title {
+  @apply text-center text-brown mb-1.5 sm:text-style-375-h1 md:text-style-768-h1 xxl:text-style-1440-h1;
+}
+
+.card-ran-out-unit__message {
+  @apply text-center text-black sm:text-style-375-body md:text-style-768-body xxl:text-style-1440-body;
+}
+
+.card-ran-out-unit__group {
+  @apply flex flex-col w-full items-center pt-[15%];
+}
+
+.card-ran-out-unit__button {
+  @apply w-10/12;
+}
+.card-ran-out-unit__button:first-child {
+  @apply mb-1.5;
+}

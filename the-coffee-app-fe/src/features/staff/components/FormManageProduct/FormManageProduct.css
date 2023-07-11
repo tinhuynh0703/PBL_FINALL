@@ -1,0 +1,11 @@
+.add-product {
+  @apply w-full h-fit grid grid-cols-2 gap-1 px-1 py-1.5 border-b-[1px] border-grey-4;
+}
+
+.add-image {
+  @apply w-full h-fit py-1 flex text-center;
+}
+
+.area-upload-file {
+  @apply w-full flex justify-center py-[24px];
+}

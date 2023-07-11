@@ -1,0 +1,22 @@
+.form-popup-confirm__exit {
+  @apply w-1 h-1 absolute top-2 right-2 cursor-pointer;
+}
+
+.form-popup-confirm__title {
+  @apply text-center text-brown mb-1.5 sm:text-style-375-h1 md:text-style-768-h1 xxl:text-style-1440-h1;
+}
+
+.form-popup-confirm__message {
+  @apply text-center text-black sm:text-style-375-body md:text-style-768-body xxl:text-style-1440-body;
+}
+
+.form-popup-confirm__group {
+  @apply flex flex-col w-full items-center pt-[15%];
+}
+
+.form-popup-confirm__button {
+  @apply w-10/12;
+}
+.form-popup-confirm__button:first-child {
+  @apply mb-1.5;
+}

@@ -1,0 +1,32 @@
+.btn {
+  @apply w-full sm:w-[92%] sm:max-w-[343px] md:max-w-[440px];
+  @apply sm:h-3 md:h-3.5;
+  @apply sm:text-style-375-body md:text-style-768-button xxl:text-style-1440-button;
+  @apply rounded-[50px] border-none cursor-pointer bg-accent-1;
+}
+
+.btn-primary {
+  @apply text-white;
+}
+.btn-primary:hover {
+  @apply shadow-buttonPrimary;
+}
+.btn-secondary {
+  @apply shadow-card_center bg-white text-black;
+}
+
+.btn-enabled {
+  @apply bg-accent-1;
+}
+
+.btn-disabled {
+  @apply bg-accent-3;
+}
+
+btn-login {
+  @apply w-[120px];
+}
+
+btn-logout {
+  @apply w-[440px];
+}

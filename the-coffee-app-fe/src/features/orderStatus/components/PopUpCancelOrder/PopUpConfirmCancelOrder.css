@@ -1,0 +1,30 @@
+.form-cancel-order {
+  @apply w-[520px] h-fit bg-white rounded-[8px] border-[1px] border-solid border-grey-1 m-[auto] top-0 bottom-0 left-0 right-0 absolute z-[1] flex flex-col shadow-md;
+}
+
+.form-cancel-order__detail {
+  @apply border-solid py-[17.5px] px-[24px] flex flex-row justify-between;
+}
+
+.form-cancel-order__information {
+  @apply border-[1px] border-solid border-grey-6 py-[28px] px-1.5;
+}
+
+.form-cancel-order__button-cancel {
+  @apply h-[36px] w-[140px] rounded-[4px];
+}
+
+.form-cancel-order__bottom {
+  @apply flex justify-center py-[12px];
+}
+
+.form-cancel-order__reason {
+  @apply text-style-vendor-body-1 w-full rounded-[4px] py-[13px] px-1 border-style border-grey-2;
+}
+
+.form-cancel-order__reason:focus-within {
+  outline: 1px solid rgb(202, 195, 195);
+}
+.form-cancel-order__button-cancel:disabled {
+  @apply bg-grey-1 text-white
+}

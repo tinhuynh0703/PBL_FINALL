@@ -1,0 +1,13 @@
+@import '../../share/assets/scss/variables.scss';
+
+.error-page {
+  @apply flex flex-col text-center items-center h-screen;
+
+  &__title {
+    @apply py-3;
+  }
+
+  &__button {
+    @apply w-1/3;
+  }
+}

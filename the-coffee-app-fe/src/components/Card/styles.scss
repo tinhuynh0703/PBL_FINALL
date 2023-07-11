@@ -1,0 +1,48 @@
+.card {
+  @apply flex flex-col items-center z-1;
+
+  &-login {
+    @apply justify-around;
+
+    &__content {
+      @apply flex justify-center mt-2.25;
+
+      &--accent {
+        @apply text-accent-1 no-underline;
+      }
+    }
+  }
+
+  &--center {
+    @apply absolute mx-auto left-0 right-0 sm:bottom-0 md:top-[12.5%] xxl:top-[7.5%];
+    @apply sm:h-3/4 xxl:h-5/6 sm:w-full md:w-[480px];
+    @apply bg-white rounded-2xl shadow-card_center;
+  }
+
+  &--detail {
+    display: flex;
+    justify-content: center;
+    @apply absolute mx-auto left-0 right-0 sm:bottom-0 md:top-[12.5%] xxl:top-[7.5%];
+    @apply sm:h-3/4 xxl:h-5/6 sm:w-full md:w-[480px];
+    @apply bg-white rounded-2xl shadow-card_center;
+  }
+
+  &--right {
+    display: flex;
+    align-items: center;
+    @apply fixed top-0 -right-full bg-grey-4 overflow-y-scroll;
+    @apply h-screen sm:w-full md:w-2/3 lg:w-2/5 xl:w-1/3 xxl:max-w-[500px];
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    animation: slideRightToLeft 0.4s ease-out forwards;
+  }
+}
+
+@keyframes slideRightToLeft {
+  to {
+    right: 0;
+  }
+}

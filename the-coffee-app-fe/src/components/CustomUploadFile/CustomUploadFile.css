@@ -1,0 +1,24 @@
+
+.custom-upload {
+  @apply w-fit order-column-center;
+}
+.custom-upload__header {
+  @apply tracking-[0.1px] text-style-upload;
+}
+.custom-upload__label {
+  @apply text-center absolute mt-[184px] h-[32px] font-normal text-[12px] leading-[16px] tracking-[0.4px];
+}
+
+.custom-upload__area {
+  @apply h-[240px] w-[240px] my-1.5 border-2 border-dashed box-border rounded-[7px] border-grey-3 order-column-center;
+}
+.custom-upload__file-upload {
+  @apply opacity-0;
+}
+.custom-upload__footer {
+  @apply font-normal tracking-[0.25px] text-style-upload;
+}
+.custom-upload__error {
+  @apply tracking-[0.25px] text-error ;
+}
+

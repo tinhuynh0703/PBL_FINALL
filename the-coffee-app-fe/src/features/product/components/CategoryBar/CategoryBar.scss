@@ -1,0 +1,12 @@
+@import '../../../../share/assets/scss/variables.scss';
+
+.category-item {
+  @apply whitespace-nowrap mx-1 xxl:mx-0 border-none py-1 md:py-0.5 md:px-1 sm:px-1 xxl:pl-1.25 xxl:mb-2 cursor-pointer xxl:text-style-1440-h2 md:text-style-768-h2 sm:text-style-375-h2 text-center xxl:text-left;
+
+  &:first-child {
+    @apply xxl:mt-2.5;
+  }
+}
+.active {
+  @apply border border-solid  box-border rounded-full text-accent-1 bg-accent-4;
+}

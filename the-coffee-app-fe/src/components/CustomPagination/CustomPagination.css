@@ -1,0 +1,8 @@
+
+.custom-pagination {
+  @apply flex flex-row items-center w-fit;
+}
+.custom-pagination__label {
+  @apply text-style-vendor-body-2 pr-[25px]
+}
+

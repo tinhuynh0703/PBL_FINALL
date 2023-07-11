@@ -1,0 +1,40 @@
+@import '../../share/assets/scss/variables.scss';
+
+.toast-container {
+  @apply fixed top-5 right-1 w-1/4 h-4 rounded-lg flex text-white;
+
+  &__symbol {
+    @apply w-1.5 h-1.5 m-1;
+  }
+
+  &__message {
+    @apply my-1.5;
+  }
+}
+
+#show {
+  @apply visible;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+#hide {
+  @apply invisible;
+}
+
+@keyframes fadeIn {
+  from {
+    @apply bottom-0 opacity-0;
+  }
+  to {
+    @apply bottom-8 opacity-100;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    @apply bottom-8 opacity-100;
+  }
+  to {
+    @apply bottom-0 opacity-0;
+  }
+}

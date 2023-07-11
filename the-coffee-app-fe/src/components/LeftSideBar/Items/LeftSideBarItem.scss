@@ -1,0 +1,14 @@
+@import '../../../share/assets/scss/variables.scss';
+
+.left-side-bar-item {
+  @apply flex flex-col md:w-[72px] lg:w-[108px] md:h-[56px] lg:h-[80px] md:my-1 lg:my-2 justify-center text-center items-center cursor-pointer;
+  &__img {
+    @apply mb-0.5 md:w-[11px] md:h-[13px] lg:w-[16px] lg:h-[20px] lg:w-fit lg:w-fit;
+  }
+  &--active {
+    @apply left-side-bar-item bg-accent-4 text-accent-1 rounded-lg;
+    .left-side-bar-item__img {
+      @include icon-active;
+    }
+  }
+}

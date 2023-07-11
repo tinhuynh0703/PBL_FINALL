@@ -1,0 +1,3 @@
+.button-icon {
+  @apply flex items-center justify-center h-[44px] w-[44px] bg-white rounded-[50px];
+}
